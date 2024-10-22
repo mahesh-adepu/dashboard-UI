@@ -211,11 +211,15 @@ border:1px solid var(--black1);
 }
 
 .navigation.active{
-width: 55px;
+width: 70px;
 }
+.navigation.active .title{
+    opacity: 0;
+}
+
 .main.active{
     width: calc(100% - 70px);
-    left: 55px;
+    left: 70px;
 }
 .card-main{
   display: grid;

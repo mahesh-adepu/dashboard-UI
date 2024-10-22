@@ -215,7 +215,7 @@ width: 70px;
 }
 .navigation.active .title{
     opacity: 0;
-}
+    }
 
 .main.active{
     width: calc(100% - 70px);
